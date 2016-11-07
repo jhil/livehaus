@@ -29,6 +29,7 @@ body, .content {
 }
 
 .overlay {
+  pointer-events: none;
   position: absolute;
   top: 36%;
   left: 0;
