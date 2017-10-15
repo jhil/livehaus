@@ -11,7 +11,7 @@ body, .content {
 }
 
 .item {
-  width: 33.33%;
+  width: 25%;
   height: 50%;
   float: left;
   background-color: $blue;
@@ -28,7 +28,7 @@ body, .content {
   align-items: center;
   justify-content: center;
   pointer-events: none;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 2000;
@@ -49,25 +49,57 @@ body, .content {
 // People
 
 .jeff {
-  background-image: url('../img/jeff.jpg')
+  background-image: url('../img/jeff.jpg');
 }
 
 .kunal {
-  background-image: url('../img/kunal.jpg')
+  background-image: url('../img/kunal.jpg');
 }
 
 .nick {
-  background-image: url('../img/nick.jpg')
+  background-image: url('../img/nick.jpg');
+  background-color: $gray;
 }
 
 .noga {
-  background-image: url('../img/noga.jpg')
+  background-image: url('../img/noga.jpg');
+  background-color: $gray;
 }
 
 .richard {
-  background-image: url('../img/richard.jpg')
+  background-image: url('../img/richard.jpg');
+  background-color: $gray;
 }
 
 .rob {
-  background-image: url('../img/rob.jpg')
+  background-image: url('../img/rob.jpg');
+}
+
+.robin {
+  background-image: url('../img/robin.jpg');
+}
+
+.austin {
+  background-image: url('../img/austin.jpg');
+}
+.austin {
+  background-image: url('../img/austin.jpg');
+}
+.amritha {
+  background-image: url('../img/amritha.jpg');
+}
+.josh {
+  background-image: url('../img/josh.jpg');
+}
+.anthony {
+  background-image: url('../img/anthony.jpg');
+}
+.adam {
+  background-image: url('../img/adam.jpg');
+}
+.amber {
+  background-image: url('../img/amber.jpg');
+}
+.charlie {
+  background-image: url('../img/charlie.jpg');
 }
